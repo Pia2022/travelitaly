@@ -1,2 +1,9 @@
+@use 'fonts';
+
+@import 'header';
+@import 'country';
+@import 'grid';
+@import 'food';
+@import 'footer';
 
 /*# sourceMappingURL=index.css.map */

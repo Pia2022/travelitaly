@@ -1,22 +1,27 @@
 
 header {
     position: absolute;
-    width: 500px;
-    height: 328px;
-    margin-left: 0%;
-    margin-top: 78px;
-    left: 0%;
-    right: 65.43%;
-    top: 8.59%;
-    bottom: 42.38%;
-  }
-
-.world {
-    ;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 0px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
 }
 
-.nav-content {
+.meet {
+  font-family: 'Ramaraja', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;  
+}
 
+.world {
+    max-width: 1200px;
+    width: 100%;    
 }
 
 .nav {
@@ -47,16 +52,35 @@ header {
   color: white/*rgb(171, 172, 240)*/;
 }
 
+
+a {
+  color: #000000;
+}
+li {
+  margin-left: 20px;
+  }
+li:hover {
+  transform: scale(1.2);
+}
+a:link { 
+  text-decoration: none; 
+}
+a:visited { 
+  text-decoration: none; 
+}
+a:active { 
+  text-decoration: none; 
+}
+
 /* Hide the link that should open and close the topnav on small screens */
 .nav .icon {
   display: none;
 }
 
-
 .ul-menu {
     list-style: none;
     display: flex;
-    max-width: 350px;
+    max-width: 1200px;
     width: 100%;
     justify-content: space-between;
     margin: 0;
@@ -66,6 +90,16 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;;
   }
 
   li {
