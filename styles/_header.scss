@@ -1,16 +1,16 @@
 
 header {
-    position: absolute;
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     height: auto;
     margin-top: 0px;  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;  
+    
 }
 
 .meet {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: 'Ramaraja', serif;
   font-style: normal;
   font-weight: normal;
@@ -52,7 +52,11 @@ header {
   color: white/*rgb(171, 172, 240)*/;
 }
 
-
+/* Hide the link that should open and close the topnav on small screens */
+.nav .icon {
+  display: none;
+}
+/*
 a {
   color: #000000;
 }
@@ -71,20 +75,18 @@ a:visited {
 a:active { 
   text-decoration: none; 
 }
+*/
 
-/* Hide the link that should open and close the topnav on small screens */
-.nav .icon {
-  display: none;
-}
 
-.ul-menu {
+ul {
     list-style: none;
     display: flex;
-    max-width: 1200px;
+    max-width: 800px;
     width: 100%;
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    /*
     overflow: hidden;
     background-color: #DBDF88;
     position: -webkit-sticky; 
@@ -96,12 +98,12 @@ a:active {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 32px;*/
     /* or 160% */
     letter-spacing: 0.02em;
-    color: #9A9A9A;;
+    color: #9A9A9A;
   }
-
+/*
   li {
     float:left
 }
@@ -112,4 +114,4 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+}*/
